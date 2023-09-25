@@ -1,0 +1,4 @@
+[console_scripts]
+hololens_spawner = holo_spawn.hololens_spawner:main
+teleop_node = holo_spawn.teleop_node:main
+

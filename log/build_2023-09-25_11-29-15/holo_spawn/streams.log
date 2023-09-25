@@ -1,0 +1,53 @@
+[0.479s] Invoking command in '/home/nadimdib/holo_sim_gazebo/src/holo_spawn': PYTHONPATH=/home/nadimdib/holo_sim_gazebo/build/holo_spawn/prefix_override:/home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/holo_spawn build --build-base /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build install --record /home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log --install-scripts $base/lib/holo_spawn --single-version-externally-managed
+[0.628s] running egg_info
+[0.628s] creating ../../build/holo_spawn/holo_spawn.egg-info
+[0.628s] writing ../../build/holo_spawn/holo_spawn.egg-info/PKG-INFO
+[0.629s] writing dependency_links to ../../build/holo_spawn/holo_spawn.egg-info/dependency_links.txt
+[0.629s] writing entry points to ../../build/holo_spawn/holo_spawn.egg-info/entry_points.txt
+[0.629s] writing requirements to ../../build/holo_spawn/holo_spawn.egg-info/requires.txt
+[0.629s] writing top-level names to ../../build/holo_spawn/holo_spawn.egg-info/top_level.txt
+[0.631s] writing manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+[0.653s] reading manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+[0.654s] writing manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+[0.654s] running build
+[0.654s] running build_py
+[0.654s] creating /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build
+[0.655s] creating /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib
+[0.655s] creating /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+[0.655s] copying holo_spawn/teleop_node.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+[0.655s] copying holo_spawn/hololens_spawner.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+[0.655s] copying holo_spawn/__init__.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+[0.655s] running install
+[0.655s] running install_lib
+[0.656s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+[0.656s] copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/teleop_node.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+[0.656s] copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/hololens_spawner.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+[0.656s] copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/__init__.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+[0.657s] byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/teleop_node.py to teleop_node.cpython-38.pyc
+[0.658s] byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/hololens_spawner.py to hololens_spawner.cpython-38.pyc
+[0.658s] byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/__init__.py to __init__.cpython-38.pyc
+[0.658s] running install_data
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index/resource_index
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index/resource_index/packages
+[0.659s] copying resource/holo_spawn -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index/resource_index/packages
+[0.659s] copying package.xml -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/launch
+[0.659s] copying launch/gazebo_world.launch.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/launch
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/worlds
+[0.659s] copying ./worlds/warehouse.world -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/worlds/
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models
+[0.659s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/small_warehouse
+[0.659s] copying ./models/small_warehouse/model.sdf -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/small_warehouse/
+[0.660s] copying ./models/small_warehouse/model.config -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/small_warehouse/
+[0.660s] creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens
+[0.660s] copying ./models/hololens/model.sdf -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens/
+[0.660s] copying ./models/hololens/model.config -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens/
+[0.660s] copying ./worlds/warehouse.world -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/
+[0.660s] running install_egg_info
+[0.660s] Copying ../../build/holo_spawn/holo_spawn.egg-info to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn-0.0.0-py3.8.egg-info
+[0.661s] running install_scripts
+[0.673s] Installing hololens_spawner script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+[0.673s] Installing teleop_node script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+[0.673s] writing list of installed files to '/home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log'
+[0.685s] Invoked command in '/home/nadimdib/holo_sim_gazebo/src/holo_spawn' returned '0': PYTHONPATH=/home/nadimdib/holo_sim_gazebo/build/holo_spawn/prefix_override:/home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/holo_spawn build --build-base /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build install --record /home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log --install-scripts $base/lib/holo_spawn --single-version-externally-managed

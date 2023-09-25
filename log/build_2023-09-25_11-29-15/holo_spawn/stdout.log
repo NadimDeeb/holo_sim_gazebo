@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/holo_spawn/holo_spawn.egg-info
+writing ../../build/holo_spawn/holo_spawn.egg-info/PKG-INFO
+writing dependency_links to ../../build/holo_spawn/holo_spawn.egg-info/dependency_links.txt
+writing entry points to ../../build/holo_spawn/holo_spawn.egg-info/entry_points.txt
+writing requirements to ../../build/holo_spawn/holo_spawn.egg-info/requires.txt
+writing top-level names to ../../build/holo_spawn/holo_spawn.egg-info/top_level.txt
+writing manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+reading manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+writing manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build
+creating /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib
+creating /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+copying holo_spawn/teleop_node.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+copying holo_spawn/hololens_spawner.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+copying holo_spawn/__init__.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+running install
+running install_lib
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/teleop_node.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/hololens_spawner.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/__init__.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/teleop_node.py to teleop_node.cpython-38.pyc
+byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/hololens_spawner.py to hololens_spawner.cpython-38.pyc
+byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index/resource_index
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index/resource_index/packages
+copying resource/holo_spawn -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/ament_index/resource_index/packages
+copying package.xml -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/launch
+copying launch/gazebo_world.launch.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/launch
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/worlds
+copying ./worlds/warehouse.world -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/worlds/
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/small_warehouse
+copying ./models/small_warehouse/model.sdf -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/small_warehouse/
+copying ./models/small_warehouse/model.config -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/small_warehouse/
+creating /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens
+copying ./models/hololens/model.sdf -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens/
+copying ./models/hololens/model.config -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens/
+copying ./worlds/warehouse.world -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/
+running install_egg_info
+Copying ../../build/holo_spawn/holo_spawn.egg-info to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn-0.0.0-py3.8.egg-info
+running install_scripts
+Installing hololens_spawner script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+Installing teleop_node script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+writing list of installed files to '/home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log'
