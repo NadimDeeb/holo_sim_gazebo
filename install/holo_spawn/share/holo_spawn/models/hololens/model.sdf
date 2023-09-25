@@ -42,14 +42,20 @@
                 </plugin>
             </sensor>
 
-            <collison name="actual_collision">
+            <collision name="actual_collision">
                 <geometry>
                     <cylinder>
                         <radius>0.04267</radius>
                         <length>0.07357</length>
                     </cylinder>
                 </geometry>
-            </collison>
+
+                <surface>
+                    <contact>
+                        <collide_bitmask>0x01</collide_bitmask>
+                    </contact>
+                </surface>
+            </collision>
 
             <inertial>
                 <mass>50</mass>

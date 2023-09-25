@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/holo_spawn/holo_spawn.egg-info/PKG-INFO
+writing dependency_links to ../../build/holo_spawn/holo_spawn.egg-info/dependency_links.txt
+writing entry points to ../../build/holo_spawn/holo_spawn.egg-info/entry_points.txt
+writing requirements to ../../build/holo_spawn/holo_spawn.egg-info/requires.txt
+writing top-level names to ../../build/holo_spawn/holo_spawn.egg-info/top_level.txt
+reading manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+writing manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying ./models/hololens/model.sdf -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/share/holo_spawn/models/hololens/
+running install_egg_info
+removing '/home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/holo_spawn/holo_spawn.egg-info to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn-0.0.0-py3.8.egg-info
+running install_scripts
+Installing hololens_spawner script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+Installing teleop_node script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+writing list of installed files to '/home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log'
