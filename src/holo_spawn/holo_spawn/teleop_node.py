@@ -55,30 +55,22 @@ class TeleopKeyboard(Node):
             # Keyboard bindings
             keys = pygame.key.get_pressed()
             if keys[pygame.K_w]: # if w pressed, forwards
-                speed_linear = speed_linear + 0.0001
                 twist_msg.linear.x = speed_linear
                 self.key_stroke.publish(twist_msg)
-                time.sleep(0.3)
-            elif keys[pygame.K_x]: # if s pressed, backwards
-                speed_linear = speed_linear - 0.0001
-                twist_msg.linear.x = speed_linear
+            elif keys[pygame.K_x]: # if x pressed, backwards
+                twist_msg.linear.x = -speed_linear
                 self.key_stroke.publish(twist_msg)
-                time.sleep(0.3)
 
             if keys[pygame.K_d]: # if d pressed, right
-                speed_angular = speed_angular + 0.0001
-                twist_msg.angular.z = speed_angular
+                twist_msg.angular.z = -speed_angular
                 self.key_stroke.publish(twist_msg)
                 twist_msg.angular.z = 0.0 # zero angular in order to not stick
-                time.sleep(0.3)
             elif keys[pygame.K_a]: # if a pressed, left
-                speed_angular = speed_angular - 0.0001
                 twist_msg.angular.z = speed_angular
                 self.key_stroke.publish(twist_msg)
                 twist_msg.angular.z = 0.0 # zero angular in order to not stick
-                time.sleep(0.3)
             
-            if keys[pygame.K_s]: #if x pressed, stop
+            if keys[pygame.K_s]: #if s pressed, stop
                 twist_msg.linear.x = 0.0
                 twist_msg.angular.z = 0.0
                 self.key_stroke.publish(twist_msg)
