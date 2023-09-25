@@ -1,0 +1,25 @@
+[0.497s] Invoking command in '/home/nadimdib/holo_sim_gazebo/src/holo_spawn': PYTHONPATH=/home/nadimdib/holo_sim_gazebo/build/holo_spawn/prefix_override:/home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/holo_spawn build --build-base /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build install --record /home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log --install-scripts $base/lib/holo_spawn --single-version-externally-managed
+[0.666s] running egg_info
+[0.667s] writing ../../build/holo_spawn/holo_spawn.egg-info/PKG-INFO
+[0.667s] writing dependency_links to ../../build/holo_spawn/holo_spawn.egg-info/dependency_links.txt
+[0.667s] writing entry points to ../../build/holo_spawn/holo_spawn.egg-info/entry_points.txt
+[0.667s] writing requirements to ../../build/holo_spawn/holo_spawn.egg-info/requires.txt
+[0.667s] writing top-level names to ../../build/holo_spawn/holo_spawn.egg-info/top_level.txt
+[0.694s] reading manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+[0.694s] writing manifest file '../../build/holo_spawn/holo_spawn.egg-info/SOURCES.txt'
+[0.695s] running build
+[0.695s] running build_py
+[0.695s] copying holo_spawn/teleop_node.py -> /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn
+[0.695s] running install
+[0.695s] running install_lib
+[0.696s] copying /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build/lib/holo_spawn/teleop_node.py -> /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn
+[0.696s] byte-compiling /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn/teleop_node.py to teleop_node.cpython-38.pyc
+[0.697s] running install_data
+[0.698s] running install_egg_info
+[0.699s] removing '/home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn-0.0.0-py3.8.egg-info' (and everything under it)
+[0.699s] Copying ../../build/holo_spawn/holo_spawn.egg-info to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages/holo_spawn-0.0.0-py3.8.egg-info
+[0.700s] running install_scripts
+[0.712s] Installing hololens_spawner script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+[0.712s] Installing teleop_node script to /home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/holo_spawn
+[0.713s] writing list of installed files to '/home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log'
+[0.726s] Invoked command in '/home/nadimdib/holo_sim_gazebo/src/holo_spawn' returned '0': PYTHONPATH=/home/nadimdib/holo_sim_gazebo/build/holo_spawn/prefix_override:/home/nadimdib/holo_sim_gazebo/install/holo_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/holo_spawn build --build-base /home/nadimdib/holo_sim_gazebo/build/holo_spawn/build install --record /home/nadimdib/holo_sim_gazebo/build/holo_spawn/install.log --install-scripts $base/lib/holo_spawn --single-version-externally-managed
